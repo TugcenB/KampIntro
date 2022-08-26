@@ -1,0 +1,2 @@
+# KampIntro
+Sıfırdan C# 
