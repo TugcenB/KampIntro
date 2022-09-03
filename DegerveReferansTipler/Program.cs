@@ -26,6 +26,20 @@ namespace DegerveReferansTipler
 
             //stack -    aa/101x->102                                        bb/102
             //heap -  [10,20,30]/101xmove to garbage collector         [100->999,200,300]/102
+            int number = 4;
+            switch (number)
+            {
+                case 4:
+                    Console.WriteLine("Sayı 5' ten küçüktür.");
+                    break;
+                case 5:
+                    Console.WriteLine("Sayı 5' e eşittir.");
+                    break;
+                default:
+                    Console.WriteLine("Sayı 5' ten büyüktür.");
+                    break;
+
+            }
         }
     }
 }
