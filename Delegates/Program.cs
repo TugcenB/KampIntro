@@ -25,10 +25,10 @@ public class Program
             Random rand = new Random();
             return rand.Next(1,100);
         };
-        Console.WriteLine(getRandomNumber);
+        Console.WriteLine(getRandomNumber());
         Thread.Sleep(1000);
         Func<int> getRandomNumber2 = () => new Random().Next(1,100);
-        Console.WriteLine(getRandomNumber2);
+        Console.WriteLine(getRandomNumber2());
     }
 }
 public delegate void MyDelegate();
